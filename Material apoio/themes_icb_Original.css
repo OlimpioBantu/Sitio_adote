@@ -1,0 +1,994 @@
+/*
+Powered by Banthu - Bureau Porão Digital
+Version: 2.6.13
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/lgpl-3.0.en.html
+*/
+
+/**
+ * 8.0 Alignments
+ */
+
+.alignleft {
+	display: inline;
+	float: left;
+    max-width: 100%;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+    max-width: 100%;
+}
+
+.aligncenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+    max-width: 100%;
+}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.4em 1.6em 1.6em 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.4em 0 1.6em 1.6em;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	clear: both;
+	margin-top: 0.4em;
+	margin-bottom: 1.6em;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+	margin-bottom: 1.2em;
+}
+
+body{  /* moldura 16/06/18  */
+    margin:0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;  
+    color: black;    
+    background: #7FFF00;
+    line-height: 17px;
+} 
+
+.container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 95%;
+}
+
+.cabecalho{            
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);        
+}
+
+
+.img-cabecalho{
+    width: 100%;
+    color:#000000;
+    padding: 2px;
+}
+   
+img {
+    max-width: 100%;
+    border-radius: 10px;        
+    color:#000000;   
+    height: auto;
+}
+
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a{
+    color: #000000;
+}
+
+a:hover {/* Links  Bioinformática*/
+    background-color: #dddddd; 
+    border-radius: 6px; 
+}
+
+li{
+    padding: 0;
+    margin: 0;  
+    text-align: left;
+}
+
+p{
+    color: #000000;  
+    text-align: left;    
+}
+
+h1{
+    color: #000000;  
+}
+
+hr { 
+    border: 1px #000066 solid;
+    margin-top: 2px;
+}
+
+
+.glyphicon-ok {
+    font-size: 60%;
+    color:#b24700;
+}
+
+.glyphicon-arrow-left {
+    font-size: 100%;
+    color:#b24700;
+}
+
+.glyphicon-phone-alt, .glyphicon-envelope, .glyphicon-user, .glyphicon-headphones, .glyphicon-eye-open {
+    color: #006961;
+    font-size: 85%;
+}
+
+.glyphicon-eye-open {
+    color: #66a5a0;
+    font-size: 85%;
+}
+
+.content{
+    padding-top: 8px; 
+}
+
+/* ------
+   LINHAS 02 - COMUNICADOS - PRESENTACAO - SECRETARIA, LINKS
+ -------- */  
+.linha_02{  /*quadros aviso*/
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    background-color:#32CD32; 
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);  
+}
+
+.blocos{ 
+    padding: 0;
+    margin: 0;    
+    padding-top: 12px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: auto; 
+}
+
+.blocos li{ 
+    color: #b24700;
+    line-height: 17px;
+}
+
+/* ------
+   LINHA 05 - COMO CHEGAR
+ -------- */  
+.linha_05 {     
+    padding: 0;   
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.linha_05_bl{
+    background-color: #FF8C00; /*nada*/
+    border-radius: 10px; 
+    border-left: 1px solid #FF8C00;/*nada*/
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);   
+    height: auto;
+    height: 275px;
+}
+
+.linha_05_bl:hover{
+    border-radius: 10px; 
+    background-image: linear-gradient(to bottom, #e7e7e7, #cfcfcf 130%); 
+}
+
+.linha_05_bl li{
+    margin-left: -8px;
+    text-align: left;
+    line-height: 17px; 
+}
+
+.lin_05_tit{
+    padding-top: 1px; 
+    margin-top: 10px; 
+    margin-bottom: 7px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: inset 0 1px 2px 0 rgba(255,255,255,.3), inset 0 -1px 2px 0 rgba(0,0,0,.2), 0 1px 2px 0 rgba(0,0,0,.2);
+    background:#FF8C00; /*nada*/
+	color: #FF8C00;       /*nada*/
+}
+
+
+.lin_05_img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+/* ------
+   LINHA 06 - ALUMNI
+ -------- */
+.linha_06{
+    padding: 5px;
+    margin-top: 10px; 
+    background-color: #f0ece3;  
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);  
+}
+
+.linha_06:hover{
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #e7e7e7, #cfcfcf 130%); 
+}
+
+.lin_06_img{
+    padding: 0;
+    margin: 0;
+    height: 70%;
+    text-align: center;  
+}
+
+
+
+/* ------
+   SINGLE
+-------- */ 
+.single_completo{
+    padding-top: 20px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    border: 1px #bbb solid;   
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);    
+    background-color: #FF8C00;   /*nada*/
+}
+
+.single_content a{
+     color:#008a7e;
+}
+
+.single_content a:hover{
+    color: #000000;
+}
+
+.single_quadro{
+    padding: 0; 
+}
+
+.single_content li{
+    padding: 0;
+    margin: 0;
+    font-size: 100%; 
+    line-height: 17px;  
+    color: #000000;
+}
+
+.single_voltar{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    float: left;
+    font-size: 90%;
+    color:#d7844a;
+}
+
+.single_tit{
+    text-transform: uppercase;   
+    font-size: 130%;
+    color: #00887d;  
+}
+
+.single_erro{
+    text-align: center;
+    padding: 40px;
+}
+
+.single_publica{
+    float: right;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+
+
+/* ------
+  FOOTER
+ -------- */  
+.footer{ 
+    line-height: 17px;
+}
+
+.foot_col_end, .foot_col_tel{ 
+    font-size: 15px;
+    margin-top: 10px;  
+    padding-top: 6px;
+    padding-left: 30px;   
+    border-radius: 10px 10px 0 0; 
+    box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -1px 2px 0 rgba(0,0,0,.1), 0 3px 2px 0 rgba(0,0,0,.2);
+    background-image: linear-gradient(to bottom, #e7e7e7, #cccccc 100%); 
+    height: 80px;  
+}
+
+.foot_flag{
+    margin-top: 10px;   
+    padding: 13px;
+    border-radius: 10px 10px 0 0; 
+    box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -1px 2px 0 rgba(0,0,0,.1), 0 3px 2px 0 rgba(0,0,0,.2);
+    background-image: linear-gradient(to bottom, #e7e7e7, #cccccc 100%); 
+    line-height: 17px;     
+    text-align: center;    
+    height: 80px;  
+}
+
+
+.foot_copywriter{  /*rodape 16/06/18*/
+    font-size: 80%;
+    color:#fff; 
+    background-color: #FF8C00;  
+    line-height: 27px;
+    text-align: center; 
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);          
+    border-radius: 0 0 10px 10px;
+    height: 25px;    
+    height: auto;
+}
+
+.foot_copywriter a{
+    color:#fff; 
+}
+
+.foot_col_end:hover, .foot_col_tel:hover, .foot_flag:hover{ 
+    border-radius: 10px 10px 0 0; 
+    background-image: linear-gradient(to bottom, #e7e7e7, #ddd 150%); 
+}
+
+
+
+
+/* ------
+   TITULOS
+ -------- */
+
+/* --noticias -- */
+.titulo_01 {
+     width: 85px;   
+}
+
+/* --eventos e cursos -- */
+.titulo_02{
+    width: 140px;
+}
+
+/* --comunicados -- */
+ .titulo_03{
+    width: 120px;
+}
+
+/* --administrativo -- */
+.titulo_04{
+    width: 125px;
+}
+
+/* --comunicacao -- */
+.titulo_05{
+    width: 120px;
+}
+
+/* --comissoes e apoio -- */
+.titulo_06{
+    width: 155px;
+}
+
+/* --geral -- */
+.titulo_07{
+    width: 65px;
+}
+
+/* --apresentacao -- */
+.titulo_08{
+    width: 120px;
+}
+
+/* --Secretaria-- */
+.titulo_09{
+    width: 100px;
+}
+
+/* --Links-- */
+.titulo_10{
+    width: 65px;
+}
+
+/* --Downloads-- */
+.titulo_11{
+    width: 105px;
+}
+
+/* --Programas de Interunidades-- */
+.titulo_12{
+    width: 215px;
+}
+
+/* --Estágios-- */
+.titulo_13{
+    width: 85px;
+}
+
+.titulo_01, .titulo_02, .titulo_03, .titulo_04, .titulo_05, .titulo_06, .titulo_07, .titulo_08, .titulo_09, .titulo_10, .titulo_11, .titulo_12, .titulo_13 {
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    padding-top: 0;
+    padding-left: 16px;       
+    border-radius: 10px;
+    box-shadow: inset 0 1px 2px 0 rgba(255,255,255,.3), inset 0 -1px 2px 0 rgba(0,0,0,.2), 0 1px 2px 0 rgba(0,0,0,.2);
+    background: #006961;
+    line-height: 20px;
+}
+
+
+
+
+/* ------
+   GOOGLE
+ -------- */ 
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+
+
+/* ------
+   CONTACT FORM 7
+ -------- */ 
+
+input, textarea {
+    font-size: 100%;
+    max-width: 100%;
+}
+
+button, input {
+    line-height: normal;
+}
+ 
+label{
+    display: block;
+    line-height: 17px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+/* -----------
+O QUE PROCURA?
+------------- */  
+
+#s{
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    width: 120px;
+    height: 30px; 
+	float: left;
+}
+
+.search_label{
+    display: none;    
+}
+
+.navbar-form{
+    float: right;
+    padding: 0;
+    margin-top:10px;
+    margin-right:0;
+    border: 0;
+    
+}
+
+.form-control:focus{
+    background-color:#f9f9f9;
+    border: 1px solid #00887d;
+}
+
+input:focus{
+    background-color:#f6f7f2; 
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+} 
+
+.form-control{
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    height: 32px; 
+    color: #555555;  
+    border-radius: 10px 10px 10px 10px;     
+}
+
+
+/* ---------------
+O QUE PROCURA?  OK 
+---------------- */ 
+.btn-default{
+    padding: 0;
+    width: 40px;
+    margin-left: 5px;
+    height: 30px; 
+    border-radius: 10px;      
+}
+
+/* -----------
+   NAVBAR -- MENU
+---------------- */  
+.navbar {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    border-radius: 10px; 
+    box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -1px 2px 0 rgba(0,0,0,.1), 0 3px 2px 0 rgba(0,0,0,.2);
+    background-image: linear-gradient(to bottom, #000066/*quadro do ADOTE degrade*/, #cfcfcf 130%); 
+}
+
+.navbar-light{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+/* -- Altura e distancia - itens Menu -- 
+.navbar-default .navbar-nav>li> a{
+    margin-top: 12px;
+    margin-left: 6px;    
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #ffffff;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);  
+}
+
+/* -- Logo -- 
+.navbar-brand{     
+    padding: 0;
+    margin: 0;
+	padding-left: 15px;
+	padding-top: 11px;
+    margin-right: 20px;
+    text-align: center;
+    height: 50px;
+    float: left;
+    font-size: 18px;
+}
+
+/* -- Home -- 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #006961;  
+}
+
+/* -- Fundo dos itens do Menu --
+.navbar-default .navbar-nav > li > a:hover,   
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #006961;
+}
+
+/* -- Selecao dos sub-itens do menu --
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #006961;  
+    border-radius: 10px; 
+}
+
+/* -----------
+   DROPDOWN
+---------------- 
+.dropdown-submenu{
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu{
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);  
+}
+
+.dropdown-submenu:hover>.dropdown-menu{
+    display: block;
+}
+
+/* -- Flexinha -- 
+.dropdown-submenu>a:after{
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #cccccc;
+    margin-top: 5px;
+    margin-right: 0;         
+}
+
+.dropdown-submenu:hover>a:after{
+    border-left-color: #ffffff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu{
+    left: -100%;
+    margin-left: 0;
+}
+
+/* selecao do sub-item 	
+.dropdown-submenu li a:hover, .dropdown-menu li a:hover{ 
+    color: #fff; 
+    background-color: #006961;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);  
+    transition:all 0.2s linear; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+.dropdown-submenu li a, .dropdown-menu li a{ 
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 25px;        
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+/* ----------- MEDIA ----------- GERAL ----------- MEDIA ----------- 
+
+@media (max-width: 768px) {  
+    
+.container{
+    width: 100%;
+    padding: 8px;
+}  
+     
+tr {
+    max-width: 10%;
+    } 
+    
+    
+/* unvisited link 
+a:link {
+    text-decoration: none;    
+}
+
+/* visited link 
+a:visited {
+    text-decoration: none;    
+}
+
+/* mouse over link 
+a:hover {
+    color: black;
+    text-decoration: none; 
+}
+
+/* selected link 
+a:active {
+    text-decoration: none;
+} 
+    
+/* -- CABECALHO -- MEDIA -- 
+ .cabecalho{ 
+    margin: 0;
+    padding: 0; 
+    margin-top: 2px;
+    box-shadow: none;
+    border: 1px solid #bbbbbb;          
+    border-radius: 10px; 
+}
+    
+.img-cabecalho{
+    width: 100%;    
+    margin: 0;
+    padding: 0;
+}
+     
+    
+/* -- LINHAS 02 - COMUNICADOS, APRESENTACAO - SECRETARIA, LINKS -- MEDIA -- 
+.linha_02, .linha_04, .linha_05, .linha_06, .blocos{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.blocos{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    
+.blocos li{
+    margin: 0;
+    padding: 0;  
+    text-align: left; 
+    margin-left: -10px; 
+    color: #b24700;
+    line-height: 19px; 
+}
+      
+
+/* -- LINHA 5  -- COMO CHEGAR -- MEDIA --     
+.linha_05{
+    padding: 0;
+    margin: 0;
+} 
+      
+.linha_05_bl{
+    padding: 0;
+    margin: 0; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right:  10px;
+    padding-top:7px;    
+    padding-bottom: 1px;
+    height: auto; 
+}    
+  
+.lin_05_lista{
+    margin-left: -10px;    
+}
+ 
+.lin_05_tit{
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;    
+}   
+    
+.lin_05_img{
+    margin-top: 5px;
+}        
+    
+/* -- LINHA 6  -- COMO CHEGAR -- MEDIA -- 
+.linha_06{
+    margin: 0;
+    padding: 0;
+    border: 0 #bbbbbb solid;   
+    border-radius: 0; 
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.0);      
+    background: #CCCCCC;       
+    }   
+     
+/* -- SINGLE -- MEDIA --  
+.single_completo{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px;  
+}
+    
+.single_content li{
+    margin-left: -10px;  
+    color: #000000;
+}   
+ 
+/* --  FOOTER -- MEDIA -- 
+.footer{ 
+    margin-top: 10px; 
+}
+
+.foot_col_end, .foot_col_tel{
+    padding: 0;
+    margin: 0; 
+    height: 95px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    line-height: 21px;
+}  
+    
+.foot_col_tel, .foot_flag{
+    border-radius: 0 0 0 0;
+}
+
+.foot_col_end:hover{ 
+    border-radius: 10px 10px 0 0; 
+    background:#dddddd;  
+}
+
+.foot_col_tel:hover, .foot_flag:hover{ 
+    border-radius: 0 0 0 0; 
+    background:#dddddd;  
+}
+    
+.foot_flag{
+    margin: 0;
+}    
+    
+/* -----------
+O QUE PROCURA? -- MEDIA -- 
+-------------   
+
+.btn-default{ 
+    box-shadow: none;     
+}
+ 
+.navbar-form{
+    box-shadow: none;  
+}
+       
+/* logo
+.navbar-brand{     
+    padding: 0;
+    margin: 0;
+    padding: 10px 0 0 30px; 
+    float: left;
+}
+        
+/* quadradinho 	
+.navbar-toggle{
+    position: relative;
+    float: right;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-right: 30px;
+    margin-bottom: 8px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+}
+   
+/* quadradinho   
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #ffffff; 
+}
+    
+/* -- Selecao dos sub-itens do menu --
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #FFFFFF;
+    background-color: #006961;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);  
+}
+    
+/* itens menu   
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+}    
+    
+/* itens menu     
+.navbar-nav > li > a {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+        
+/* -- Altura e distancia - itens Menu --  
+.navbar-default .navbar-nav>li> a {
+    margin-top: 0;
+    margin-left: 0; 
+    margin-bottom: 7px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    background-color: #fff;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);  
+} 
+        
+/* -- Altura e distancia - sub-itens Menu --  
+.navbar-nav .open .dropdown-menu > li > a,
+.navbar-nav .open .dropdown-menu  {
+    margin: 0;
+    padding: 0;    
+    margin-bottom: 7px;
+    padding-left: 15px;
+    padding-top:5px;
+    padding-bottom: 5px; 
+    line-height: 20px;   
+    border-radius: 10px 10px 10px 10px; 
+}
+        
+/* -- Selecao dos sub-itens do menu --   
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff; 
+    background-color:#006961;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);  
+}
+   
+/* -- Selecao dos sub-itens do menu -- 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    background-color: #fff; 
+    }
+    
+/* -- Selecao dos sub-itens do menu -- 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #fff;
+    background-color: #006961;
+    }
+    
+/* -- MEDIA -- DROPDOWN -- MEDIA -- 
+ 
+/* selecao do sub-item 
+.dropdown-submenu li a, .dropdown-menu li a{ 
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);  
+    transition:all 0.2s linear; 
+    background-color: #fff;  
+}
+    
+/* selecao do sub-item     
+.dropdown-menu:hover li{ 
+    padding: 0;
+    margin: 0;    
+    color: #fff;    
+    border-radius: 10px;  
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.2);   
+}     
+
+} /* ----------- MEDIA ----------- GERAL ----------- MEDIA */   
+    
